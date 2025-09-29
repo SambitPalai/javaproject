@@ -94,6 +94,7 @@ public class Notepad extends JFrame implements ActionListener {
         pane.setBorder(BorderFactory.createEmptyBorder());
         add(pane);
 
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setVisible(true);
 
